@@ -2,6 +2,10 @@
 
 This project implements a web server on an ESP32 microcontroller that allows users to input text and play it as Morse code. The speed of the Morse code playback is configurable via the web interface.
 
+Diagram from [SunFounders bluetooth audio player guide](https://docs.sunfounder.com/projects/esp32-starter-kit/en/latest/arduino/basic_projects/ar_bluetooth_audio_player.html)
+<img width="1177" height="1295" alt="diagram from sunfounders ESP32 Starter kit" src="https://github.com/user-attachments/assets/37559bda-f5ae-4e2c-af4b-3239f7f489c1" />
+
+
 ## Features
 
 *   **Web Interface:** Control the Morse code playback and configuration through a simple web page.
