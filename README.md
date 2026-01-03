@@ -71,4 +71,3 @@ This project uses a `.env` file in the project root to configure Wi-Fi credentia
     WIFI_SSID="your_ssid"
     WIFI_PASS="your_password"
     ```
->>>>>>> 1125d31 (code)
