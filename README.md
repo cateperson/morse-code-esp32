@@ -16,7 +16,7 @@ Diagram from [SunFounders bluetooth audio player guide](https://docs.sunfounder.
 
 ### Prerequisites
 
-*   ESP-IDF (Espressif IoT Development Framework) installed and configured.
+*   [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html) (Espressif IoT Development Framework) installed and configured.
 *   An ESP32 development board.
 
 ### Building and Flashing
