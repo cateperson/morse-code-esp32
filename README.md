@@ -19,7 +19,7 @@ This project implements a web server on an ESP32 microcontroller that allows use
 
 1.  Clone this repository:
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/cateperson/morse-code-esp32
     cd morse_code
     ```
 2.  Set up ESP-IDF environment variables.
@@ -38,7 +38,7 @@ This project implements a web server on an ESP32 microcontroller that allows use
 
 ### Usage
 
-1.  After flashing, the ESP32 will attempt to connect to the Wi-Fi network configured in `sdkconfig` (or via the web interface if implemented).
+1.  After flashing, the ESP32 will attempt to connect to the Wi-Fi network configured in the .env
 2.  Once connected, navigate to the IP address displayed on the serial monitor in your web browser.
 3.  Use the web interface to input text and adjust the Morse code playback speed.
 
@@ -67,7 +67,3 @@ This project uses a `.env` file in the project root to configure Wi-Fi credentia
     WIFI_SSID="your_ssid"
     WIFI_PASS="your_password"
     ```
-
-Note: The `.env` file is ignored by git to keep your credentials safe.
-
-The Wi-Fi credentials and other settings can also be configured using `idf.py menuconfig` or potentially through the web interface.
