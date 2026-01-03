@@ -11,7 +11,6 @@ idf_component_register(SRCS "main.c" "morse_control.c" "audio_control.c" "web_se
                        PRIV_REQUIRES littlefs
                        PRIV_REQUIRES cjson)
 
-# Helper to load env vars
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/../.env")
     file(STRINGS "${CMAKE_CURRENT_SOURCE_DIR}/../.env" ConfigContents)
     foreach(line ${ConfigContents})

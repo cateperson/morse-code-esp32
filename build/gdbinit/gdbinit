@@ -1,0 +1,2 @@
+source /home/catperson/esp/morse_code/build/gdbinit/symbols
+source /home/catperson/esp/morse_code/build/gdbinit/connect

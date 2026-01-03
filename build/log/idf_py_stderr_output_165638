@@ -1,0 +1,12 @@
+Command: make -j 14 all
+/home/catperson/esp/morse_code/main/main.c:65:133: error: comparison with string literal results in unspecified behavior [-Werror=address]
+   65 |     "Input: <input type=\"text\" name=\"text\" pattern=\"[A-Za-z]*\" oninput=\"this.value = this.value.replace(/[^A-Za-z]/g, \'\')/">
+      |                                                                                                                                     ^
+/home/catperson/esp/morse_code/main/main.c:33:5: error: initialization of 'const char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   33 |     "<!DOCTYPE html>"
+      |     ^~~~~~~~~~~~~~~~~
+/home/catperson/esp/morse_code/main/main.c:33:5: error: initializer element is not constant
+cc1: all warnings being treated as errors
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:79: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:5191: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

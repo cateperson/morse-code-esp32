@@ -1,0 +1,12 @@
+Command: make -j 14 all
+CMake Error at /home/catperson/esp/esp-idf/tools/cmake/build.cmake:376 (message):
+  Failed to resolve component 'PPRIV_REQUIRES' required by component 'main':
+  unknown name.
+Call Stack (most recent call first):
+  /home/catperson/esp/esp-idf/tools/cmake/build.cmake:425 (__build_resolve_and_add_req)
+  /home/catperson/esp/esp-idf/tools/cmake/build.cmake:749 (__build_expand_requirements)
+  /home/catperson/esp/esp-idf/tools/cmake/project.cmake:741 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+
+make: *** [Makefile:1488: cmake_check_build_system] Error 1

@@ -1,0 +1,8 @@
+Command: make -j 14 all
+/home/catperson/esp/morse_code/main/main.c:7:10: fatal error: esp_event.h: No such file or directory
+    7 | #include "esp_event.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:79: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:4375: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

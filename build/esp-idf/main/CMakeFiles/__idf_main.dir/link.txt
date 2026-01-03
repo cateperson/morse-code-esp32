@@ -1,0 +1,2 @@
+/home/catperson/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-ar qc libmain.a CMakeFiles/__idf_main.dir/main.c.obj CMakeFiles/__idf_main.dir/morse_control.c.obj CMakeFiles/__idf_main.dir/audio_control.c.obj CMakeFiles/__idf_main.dir/web_server.c.obj CMakeFiles/__idf_main.dir/wifi_station.c.obj CMakeFiles/__idf_main.dir/config_manager.c.obj
+/home/catperson/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-ranlib libmain.a

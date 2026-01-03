@@ -1,1 +1,7 @@
 .env
+/build/
+*.o
+*.obj
+*.elf
+*.bin
+*.a

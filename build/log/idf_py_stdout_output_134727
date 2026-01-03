@@ -1,0 +1,155 @@
+Command: make -j 14 all
+-- Component directory /home/catperson/esp/esp-idf/components/mqtt does not contain a CMakeLists.txt file. No component will be added
+-- Minimal build - ON
+-- git rev-parse returned 'fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- ESP-TEE is currently supported only on the esp32c6;esp32h2;esp32c5;esp32c61 SoCs
+-- KCONFIG_REPORT_VERBOSITY not set, using default
+-- Project sdkconfig file /home/catperson/esp/morse_code/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- App "hello_world" version: 1
+-- USING O3
+-- Adding linker script /home/catperson/esp/esp-idf/components/esp_system/ld/esp32/memory.ld.in
+--   -> Preprocessing .in script: /home/catperson/esp/esp-idf/components/esp_system/ld/esp32/memory.ld.in
+-- Adding linker script /home/catperson/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+--   -> Preprocessing .in script: /home/catperson/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+--   -> Applying ldgen processing: /home/catperson/esp/morse_code/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script /home/catperson/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/catperson/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/catperson/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/catperson/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libc-funcs.ld
+-- Adding linker script /home/catperson/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_update bootloader bootloader_support cxx efuse esp_app_format esp_blockdev esp_bootloader_format esp_coex esp_common esp_driver_dac esp_driver_gpio esp_driver_i2s esp_driver_uart esp_driver_usb_serial_jtag esp_event esp_hal_ana_conv esp_hal_dma esp_hal_gpio esp_hal_gpspi esp_hal_i2s esp_hal_mspi esp_hal_pmu esp_hal_timg esp_hal_touch_sens esp_hal_uart esp_hal_usb esp_hal_wdt esp_http_server esp_hw_support esp_libc esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_ringbuf esp_rom esp_security esp_stdio esp_system esp_timer esp_usb_cdc_rom_console esp_wifi esptool_py freertos hal heap http_parser log lwip main mbedtls nvs_flash nvs_sec_provider partition_table pthread soc spi_flash vfs wpa_supplicant xtensa
+-- Component paths: /home/catperson/esp/esp-idf/components/app_update /home/catperson/esp/esp-idf/components/bootloader /home/catperson/esp/esp-idf/components/bootloader_support /home/catperson/esp/esp-idf/components/cxx /home/catperson/esp/esp-idf/components/efuse /home/catperson/esp/esp-idf/components/esp_app_format /home/catperson/esp/esp-idf/components/esp_blockdev /home/catperson/esp/esp-idf/components/esp_bootloader_format /home/catperson/esp/esp-idf/components/esp_coex /home/catperson/esp/esp-idf/components/esp_common /home/catperson/esp/esp-idf/components/esp_driver_dac /home/catperson/esp/esp-idf/components/esp_driver_gpio /home/catperson/esp/esp-idf/components/esp_driver_i2s /home/catperson/esp/esp-idf/components/esp_driver_uart /home/catperson/esp/esp-idf/components/esp_driver_usb_serial_jtag /home/catperson/esp/esp-idf/components/esp_event /home/catperson/esp/esp-idf/components/esp_hal_ana_conv /home/catperson/esp/esp-idf/components/esp_hal_dma /home/catperson/esp/esp-idf/components/esp_hal_gpio /home/catperson/esp/esp-idf/components/esp_hal_gpspi /home/catperson/esp/esp-idf/components/esp_hal_i2s /home/catperson/esp/esp-idf/components/esp_hal_mspi /home/catperson/esp/esp-idf/components/esp_hal_pmu /home/catperson/esp/esp-idf/components/esp_hal_timg /home/catperson/esp/esp-idf/components/esp_hal_touch_sens /home/catperson/esp/esp-idf/components/esp_hal_uart /home/catperson/esp/esp-idf/components/esp_hal_usb /home/catperson/esp/esp-idf/components/esp_hal_wdt /home/catperson/esp/esp-idf/components/esp_http_server /home/catperson/esp/esp-idf/components/esp_hw_support /home/catperson/esp/esp-idf/components/esp_libc /home/catperson/esp/esp-idf/components/esp_mm /home/catperson/esp/esp-idf/components/esp_netif /home/catperson/esp/esp-idf/components/esp_netif_stack /home/catperson/esp/esp-idf/components/esp_partition /home/catperson/esp/esp-idf/components/esp_phy /home/catperson/esp/esp-idf/components/esp_pm /home/catperson/esp/esp-idf/components/esp_ringbuf /home/catperson/esp/esp-idf/components/esp_rom /home/catperson/esp/esp-idf/components/esp_security /home/catperson/esp/esp-idf/components/esp_stdio /home/catperson/esp/esp-idf/components/esp_system /home/catperson/esp/esp-idf/components/esp_timer /home/catperson/esp/esp-idf/components/esp_usb_cdc_rom_console /home/catperson/esp/esp-idf/components/esp_wifi /home/catperson/esp/esp-idf/components/esptool_py /home/catperson/esp/esp-idf/components/freertos /home/catperson/esp/esp-idf/components/hal /home/catperson/esp/esp-idf/components/heap /home/catperson/esp/esp-idf/components/http_parser /home/catperson/esp/esp-idf/components/log /home/catperson/esp/esp-idf/components/lwip /home/catperson/esp/morse_code/main /home/catperson/esp/esp-idf/components/mbedtls /home/catperson/esp/esp-idf/components/nvs_flash /home/catperson/esp/esp-idf/components/nvs_sec_provider /home/catperson/esp/esp-idf/components/partition_table /home/catperson/esp/esp-idf/components/pthread /home/catperson/esp/esp-idf/components/soc /home/catperson/esp/esp-idf/components/spi_flash /home/catperson/esp/esp-idf/components/vfs /home/catperson/esp/esp-idf/components/wpa_supplicant /home/catperson/esp/esp-idf/components/xtensa
+-- Configuring done (4.6s)
+-- Generating done (0.4s)
+-- Build files have been written to: /home/catperson/esp/morse_code/build
+[  0%] Built target custom_bundle
+[  0%] Built target _project_elf_src
+[  0%] Built target sections_ld_in_preprocess
+[  0%] Built target partition_table_bin
+[  0%] Built target memory_ld_in_preprocess
+[  0%] Performing build step for 'bootloader'
+[  1%] Built target __idf_esp_wifi
+[  2%] Built target __idf_esp_coex
+[  0%] Built target _project_elf_src
+[  1%] Built target bootloader_ld_in_preprocess
+[  8%] Built target __idf_log
+[ 15%] Built target __idf_esp_rom
+[ 17%] Built target __idf_esp_common
+[ 24%] Built target __idf_esp_hw_support
+[ 26%] Built target __idf_esp_system
+[ 13%] Built target __idf_wpa_supplicant
+[ 32%] Built target __idf_efuse
+[ 14%] Built target __idf_esp_phy
+[ 50%] Built target __idf_bootloader_support
+[ 52%] Built target __idf_esp_security
+[ 16%] Built target __idf_nvs_flash
+[ 56%] Built target __idf_esp_hal_ana_conv
+[ 58%] Built target __idf_esp_hal_i2s
+[ 16%] Built target __idf_nvs_sec_provider
+[ 61%] Built target __idf_esp_hal_uart
+[ 17%] Built target __idf_esp_netif
+[ 64%] Built target __idf_esp_hal_wdt
+[ 66%] Built target __idf_esp_hal_timg
+[ 18%] Built target __idf_esp_http_server
+[ 67%] Built target __idf_esp_bootloader_format
+[ 69%] Built target __idf_spi_flash
+[ 74%] Built target __idf_esp_hal_gpspi
+[ 76%] Built target __idf_micro-ecc
+[ 77%] Built target __idf_esp_hal_pmu
+[ 30%] Built target __idf_lwip
+[ 81%] Built target __idf_esp_hal_gpio
+[ 86%] Built target __idf_hal
+[ 31%] Built target __idf_vfs
+[ 93%] Built target __idf_soc
+[ 32%] Built target __idf_esp_driver_uart
+[ 95%] Built target __idf_xtensa
+[ 32%] Built target __idf_esp_ringbuf
+[ 96%] Built target __idf_main
+[ 32%] Built target __idf_esp_event
+[ 98%] Built target bootloader.elf
+[ 32%] Built target __idf_http_parser
+[100%] Built target gen_bootloader_binary
+[ 33%] Built target __idf_cxx
+[100%] Built target gen_project_binary
+[ 34%] Built target __idf_pthread
+Bootloader binary size 0x66b0 bytes. 0x950 bytes (8%) free.
+[ 37%] Built target __idf_esp_libc
+[100%] Built target bootloader_check_size
+[100%] Built target app
+[ 39%] Built target __idf_freertos
+[ 39%] No install step for 'bootloader'
+[ 39%] Completed 'bootloader'
+[ 40%] Built target bootloader
+[ 46%] Built target __idf_esp_hw_support
+[ 47%] Built target __idf_esp_hal_touch_sens
+[ 48%] Built target __idf_esp_hal_pmu
+[ 50%] Built target __idf_soc
+[ 51%] Built target __idf_heap
+[ 53%] Built target __idf_log
+[ 55%] Built target __idf_hal
+[ 57%] Built target __idf_esp_rom
+[ 57%] Built target __idf_esp_common
+[ 62%] Built target __idf_esp_system
+[ 65%] Built target __idf_spi_flash
+[ 66%] Built target __idf_esp_mm
+[ 68%] Built target __idf_bootloader_support
+[ 69%] Built target __idf_esp_hal_ana_conv
+[ 69%] Built target __idf_esp_hal_i2s
+[ 70%] Built target __idf_esp_hal_wdt
+[ 73%] Built target mbedtls
+[ 74%] Built target mbedx509
+[ 87%] Built target mbedcrypto
+[ 88%] Built target p256m
+[ 88%] Built target everest
+[ 89%] Built target __idf_mbedtls
+[ 89%] Built target __idf_esp_pm
+[ 89%] Built target __idf_esp_hal_uart
+[ 89%] Built target __idf_esp_driver_gpio
+[ 89%] Built target __idf_esp_security
+[ 90%] Built target __idf_esp_timer
+[ 90%] Built target __idf_esp_hal_timg
+[ 91%] Built target __idf_efuse
+[ 92%] Built target __idf_esp_partition
+[ 92%] Built target __idf_app_update
+[ 92%] Built target __idf_esp_bootloader_format
+[ 92%] Built target __idf_esp_app_format
+[ 92%] Built target __idf_esp_hal_mspi
+[ 93%] Built target __idf_esp_hal_gpspi
+[ 94%] Built target __idf_esp_hal_gpio
+[ 95%] Built target __idf_esp_stdio
+[ 96%] Built target __idf_xtensa
+[ 97%] Built target __idf_esp_driver_i2s
+[ 98%] Built target __idf_esp_driver_dac
+[100%] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/audio_control.c.obj
+[100%] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/morse_control.c.obj
+[100%] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[100%] Linking C static library libmain.a
+[100%] Built target __idf_main
+[100%] Generating esp-idf/esp_system/ld/sections.ld
+[100%] Built target __ldgen_output_sections.ld
+[100%] Building C object CMakeFiles/hello_world.elf.dir/project_elf_src_esp32.c.obj
+[100%] Linking CXX executable hello_world.elf
+[100%] Built target hello_world.elf
+[100%] Generating binary image from built executable
+esptool v5.2.dev1
+Creating ESP32 image...
+Merged 2 ELF sections.
+Successfully created ESP32 image.
+Generated /home/catperson/esp/morse_code/build/hello_world.bin
+[100%] Built target gen_hello_world_binary
+[100%] Built target gen_project_binary
+hello_world.bin binary size 0xb8d10 bytes. Smallest app partition is 0x100000 bytes. 0x472f0 bytes (28%) free.
+[100%] Built target app_check_size
+[100%] Built target app

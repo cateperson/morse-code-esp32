@@ -9,7 +9,6 @@
 #include "esp_log.h"
 #include "esp_netif.h"
 
-// Fallback macros if not defined via .env
 #ifndef WIFI_SSID
 #define WIFI_SSID "default_ssid"
 #endif

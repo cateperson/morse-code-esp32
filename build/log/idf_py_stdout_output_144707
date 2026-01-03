@@ -1,0 +1,107 @@
+Command: make -j 14 all
+[  0%] Built target custom_bundle
+[  0%] Built target _project_elf_src
+[  0%] Built target memory_ld_in_preprocess
+[  0%] Built target sections_ld_in_preprocess
+[  0%] Built target partition_table_bin
+[  0%] Performing build step for 'bootloader'
+[  1%] Built target __idf_esp_wifi
+[  2%] Built target __idf_esp_coex
+[  0%] Built target _project_elf_src
+[  1%] Built target bootloader_ld_in_preprocess
+[  8%] Built target __idf_log
+[ 15%] Built target __idf_esp_rom
+[ 13%] Built target __idf_wpa_supplicant
+[ 17%] Built target __idf_esp_common
+[ 14%] Built target __idf_esp_phy
+[ 24%] Built target __idf_esp_hw_support
+[ 16%] Built target __idf_nvs_flash
+[ 26%] Built target __idf_esp_system
+[ 16%] Built target __idf_nvs_sec_provider
+[ 32%] Built target __idf_efuse
+[ 17%] Built target __idf_esp_netif
+[ 50%] Built target __idf_bootloader_support
+[ 18%] Built target __idf_esp_http_server
+[ 52%] Built target __idf_esp_security
+[ 56%] Built target __idf_esp_hal_ana_conv
+[ 58%] Built target __idf_esp_hal_i2s
+[ 30%] Built target __idf_lwip
+[ 61%] Built target __idf_esp_hal_uart
+[ 31%] Built target __idf_vfs
+[ 64%] Built target __idf_esp_hal_wdt
+[ 32%] Built target __idf_esp_driver_uart
+[ 32%] Built target __idf_esp_ringbuf
+[ 66%] Built target __idf_esp_hal_timg
+[ 67%] Built target __idf_esp_bootloader_format
+[ 32%] Built target __idf_esp_event
+[ 69%] Built target __idf_spi_flash
+[ 32%] Built target __idf_http_parser
+[ 74%] Built target __idf_esp_hal_gpspi
+[ 33%] Built target __idf_cxx
+[ 76%] Built target __idf_micro-ecc
+[ 34%] Built target __idf_pthread
+[ 77%] Built target __idf_esp_hal_pmu
+[ 37%] Built target __idf_esp_libc
+[ 81%] Built target __idf_esp_hal_gpio
+[ 39%] Built target __idf_freertos
+[ 86%] Built target __idf_hal
+[ 45%] Built target __idf_esp_hw_support
+[ 93%] Built target __idf_soc
+[ 95%] Built target __idf_xtensa
+[ 46%] Built target __idf_esp_hal_touch_sens
+[ 96%] Built target __idf_main
+[ 47%] Built target __idf_esp_hal_pmu
+[ 48%] Built target __idf_soc
+[ 98%] Built target bootloader.elf
+[100%] Built target gen_bootloader_binary
+[ 50%] Built target __idf_heap
+[100%] Built target gen_project_binary
+[ 52%] Built target __idf_log
+[ 54%] Built target __idf_hal
+Bootloader binary size 0x66b0 bytes. 0x950 bytes (8%) free.
+[ 56%] Built target __idf_esp_rom
+[100%] Built target bootloader_check_size
+[ 56%] Built target __idf_esp_common
+[100%] Built target app
+[ 56%] No install step for 'bootloader'
+[ 61%] Built target __idf_esp_system
+[ 61%] Completed 'bootloader'
+[ 64%] Built target __idf_spi_flash
+[ 65%] Built target bootloader
+[ 66%] Built target __idf_esp_mm
+[ 68%] Built target __idf_bootloader_support
+[ 69%] Built target __idf_esp_hal_ana_conv
+[ 69%] Built target __idf_esp_hal_i2s
+[ 70%] Built target __idf_esp_hal_wdt
+[ 73%] Built target mbedtls
+[ 74%] Built target mbedx509
+[ 87%] Built target mbedcrypto
+[ 88%] Built target p256m
+[ 88%] Built target everest
+[ 89%] Built target __idf_mbedtls
+[ 89%] Built target __idf_esp_pm
+[ 89%] Built target __idf_esp_hal_uart
+[ 89%] Built target __idf_esp_driver_gpio
+[ 89%] Built target __idf_esp_security
+[ 90%] Built target __idf_esp_timer
+[ 90%] Built target __idf_esp_hal_timg
+[ 91%] Built target __idf_efuse
+[ 92%] Built target __idf_esp_partition
+[ 92%] Built target __idf_app_update
+[ 92%] Built target __idf_esp_bootloader_format
+[ 92%] Built target __idf_esp_app_format
+[ 92%] Built target __idf_esp_hal_mspi
+[ 93%] Built target __idf_esp_hal_gpspi
+[ 94%] Built target __idf_esp_hal_gpio
+[ 95%] Built target __idf_esp_stdio
+[ 96%] Built target __idf_xtensa
+[ 97%] Built target __idf_esp_driver_i2s
+[ 98%] Built target __idf_esp_driver_dac
+[100%] Built target __idf_main
+[100%] Built target __ldgen_output_sections.ld
+[100%] Built target hello_world.elf
+[100%] Built target gen_hello_world_binary
+[100%] Built target gen_project_binary
+hello_world.bin binary size 0xbde10 bytes. Smallest app partition is 0x100000 bytes. 0x421f0 bytes (26%) free.
+[100%] Built target app_check_size
+[100%] Built target app

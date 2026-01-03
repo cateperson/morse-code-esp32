@@ -1,0 +1,35 @@
+Command: make -j 14 all
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 
+info: Default value for ESP_PERIPH_CTRL_FUNC_IN_IRAM in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).
+Configuration Report                                                                                                          
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+   Parser Version: 1                                                                                                          
+   Verbosity: default                                                                                                         
+   Defaults policy: sdkconfig                                                                                                 
+   Status: Finished with notifications                                                                                        
+                                                                                                                              
+  Default Value Mismatch                                                                                                      
+   ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────   
+    Using sdkconfig default values                                                                                            
+    Choice symbols with different default selection between sdkconfig and Kconfig                                             
+    LIBC_STDOUT_LINE_ENDING: Kconfig default selection: choice deselected, sdkconfig default selection:                       
+    LIBC_STDOUT_LINE_ENDING_CRLF                                                                                              
+    LIBC_STDIN_LINE_ENDING: Kconfig default selection: choice deselected, sdkconfig default selection:                        
+    LIBC_STDIN_LINE_ENDING_CR                                                                                                 
+   ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────   
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+/home/catperson/esp/morse_code/main/main.c:13:10: fatal error: esp_wifi.h: No such file or directory
+   13 | #include "esp_wifi.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:79: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:4861: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
