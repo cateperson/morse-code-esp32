@@ -6,3 +6,4 @@
 *.elf
 *.bin
 *.a
+managed_components/
